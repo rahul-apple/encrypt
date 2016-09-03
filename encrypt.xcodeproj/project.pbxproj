@@ -15,6 +15,12 @@
 		BE4DAA9F1D7A95B3001508E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4DAA9D1D7A95B3001508E5 /* LaunchScreen.storyboard */; };
 		BE4DAAAA1D7A95B3001508E5 /* encryptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4DAAA91D7A95B3001508E5 /* encryptTests.m */; };
 		BE4DAAB51D7A95B3001508E5 /* encryptUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4DAAB41D7A95B3001508E5 /* encryptUITests.m */; };
+		BE4DAACB1D7A9607001508E5 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4DAAC41D7A9607001508E5 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		BE4DAACC1D7A9607001508E5 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4DAAC61D7A9607001508E5 /* TPKeyboardAvoidingCollectionView.m */; };
+		BE4DAACD1D7A9607001508E5 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4DAAC81D7A9607001508E5 /* TPKeyboardAvoidingScrollView.m */; };
+		BE4DAACE1D7A9607001508E5 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4DAACA1D7A9607001508E5 /* TPKeyboardAvoidingTableView.m */; };
+		BE4DAAD31D7AA12C001508E5 /* FBEncryptorAES.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4DAAD01D7AA12C001508E5 /* FBEncryptorAES.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BE4DAAD41D7AA12C001508E5 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4DAAD11D7AA12C001508E5 /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		BE4DAAB01D7A95B3001508E5 /* encryptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = encryptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4DAAB41D7A95B3001508E5 /* encryptUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = encryptUITests.m; sourceTree = "<group>"; };
 		BE4DAAB61D7A95B3001508E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE4DAAC31D7A9607001508E5 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		BE4DAAC41D7A9607001508E5 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		BE4DAAC51D7A9607001508E5 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		BE4DAAC61D7A9607001508E5 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		BE4DAAC71D7A9607001508E5 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		BE4DAAC81D7A9607001508E5 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		BE4DAAC91D7A9607001508E5 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		BE4DAACA1D7A9607001508E5 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		BE4DAACF1D7AA12C001508E5 /* FBEncryptorAES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBEncryptorAES.h; sourceTree = "<group>"; };
+		BE4DAAD01D7AA12C001508E5 /* FBEncryptorAES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBEncryptorAES.m; sourceTree = "<group>"; };
+		BE4DAAD11D7AA12C001508E5 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		BE4DAAD21D7AA12C001508E5 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +119,15 @@
 		BE4DAA8E1D7A95B3001508E5 /* encrypt */ = {
 			isa = PBXGroup;
 			children = (
+				BE4DAACF1D7AA12C001508E5 /* FBEncryptorAES.h */,
+				BE4DAAD01D7AA12C001508E5 /* FBEncryptorAES.m */,
+				BE4DAAD11D7AA12C001508E5 /* NSData+Base64.m */,
+				BE4DAAD21D7AA12C001508E5 /* NSData+Base64.h */,
 				BE4DAA921D7A95B3001508E5 /* AppDelegate.h */,
 				BE4DAA931D7A95B3001508E5 /* AppDelegate.m */,
 				BE4DAA951D7A95B3001508E5 /* ViewController.h */,
 				BE4DAA961D7A95B3001508E5 /* ViewController.m */,
+				BE4DAAC21D7A95EC001508E5 /* Support */,
 				BE4DAA981D7A95B3001508E5 /* Main.storyboard */,
 				BE4DAA9B1D7A95B3001508E5 /* Assets.xcassets */,
 				BE4DAA9D1D7A95B3001508E5 /* LaunchScreen.storyboard */,
@@ -138,6 +161,21 @@
 				BE4DAAB61D7A95B3001508E5 /* Info.plist */,
 			);
 			path = encryptUITests;
+			sourceTree = "<group>";
+		};
+		BE4DAAC21D7A95EC001508E5 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				BE4DAAC31D7A9607001508E5 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				BE4DAAC41D7A9607001508E5 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				BE4DAAC51D7A9607001508E5 /* TPKeyboardAvoidingCollectionView.h */,
+				BE4DAAC61D7A9607001508E5 /* TPKeyboardAvoidingCollectionView.m */,
+				BE4DAAC71D7A9607001508E5 /* TPKeyboardAvoidingScrollView.h */,
+				BE4DAAC81D7A9607001508E5 /* TPKeyboardAvoidingScrollView.m */,
+				BE4DAAC91D7A9607001508E5 /* TPKeyboardAvoidingTableView.h */,
+				BE4DAACA1D7A9607001508E5 /* TPKeyboardAvoidingTableView.m */,
+			);
+			name = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +308,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE4DAACC1D7A9607001508E5 /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				BE4DAA971D7A95B3001508E5 /* ViewController.m in Sources */,
+				BE4DAAD31D7AA12C001508E5 /* FBEncryptorAES.m in Sources */,
+				BE4DAACE1D7A9607001508E5 /* TPKeyboardAvoidingTableView.m in Sources */,
+				BE4DAACB1D7A9607001508E5 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				BE4DAACD1D7A9607001508E5 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				BE4DAA941D7A95B3001508E5 /* AppDelegate.m in Sources */,
 				BE4DAA911D7A95B3001508E5 /* main.m in Sources */,
+				BE4DAAD41D7AA12C001508E5 /* NSData+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
